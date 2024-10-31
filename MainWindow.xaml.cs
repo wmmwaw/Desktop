@@ -20,9 +20,16 @@ namespace Desktop
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Registration first = new Registration();  
+            first.Show();
+            this.Close();
         }
     }
 }

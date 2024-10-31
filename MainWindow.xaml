@@ -12,14 +12,14 @@
         <Label Content="Почта" HorizontalAlignment="Left" Margin="516,274,0,0" VerticalAlignment="Top" Height="46" Width="95" FontSize="24"/>
         <TextBox  HorizontalAlignment="Left" Margin="516,325,0,0" TextWrapping="Wrap" Text="pangcheo1210@gmail.com" VerticalAlignment="Top" Width="415" FontSize="20" Cursor="None" BorderBrush="#FF0C0C0C" Height="35"/>
         <Label Content="Восстановить пароль" HorizontalAlignment="Left" Margin="686,467,0,0" VerticalAlignment="Top" Height="46" Width="245" FontSize="24"/>
-        <Button Content="Войти" HorizontalAlignment="Left" Height="64" Margin="516,544,0,0" VerticalAlignment="Top" Width="415" BorderBrush="#FFE3EDF3" Background="#FFF96060" FontSize="26" Foreground="White" FontFamily="Calibri">
+        <Button Content="Войти" HorizontalAlignment="Left" Height="64" Margin="516,544,0,0" VerticalAlignment="Top" Width="415" BorderBrush="#FFE3EDF3" Background="#FFF96060" FontSize="26" Foreground="White" FontFamily="Calibri" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Регистрация" HorizontalAlignment="Left" Height="62" Margin="516,624,0,0" VerticalAlignment="Top" Width="415" BorderBrush="#FFE3EDF3" Background="#FFF96060" FontSize="26" Foreground="White" FontFamily="Calibri">
+        <Button Content="Регистрация" HorizontalAlignment="Left" Height="62" Margin="516,624,0,0" VerticalAlignment="Top" Width="415" BorderBrush="#FFE3EDF3" Background="#FFF96060" FontSize="26" Foreground="White" FontFamily="Calibri" Click="Button_Click_1">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="10"/>

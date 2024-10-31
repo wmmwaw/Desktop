@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Include="C:\Users\student\Desktop\DesktopTodo.xaml" Link="DesktopTodo.xaml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="logo.png" />
   </ItemGroup>
 
